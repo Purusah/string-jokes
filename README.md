@@ -20,9 +20,9 @@
 
 ## Usage:
 1. build `make build`
-2. run 
-    * `$ ./build/app/vowels (your text)`
-    * `$ ./build/app/vowels pig-latin (your text)`
+2. encode vowels: `$ ./build/app/vowels (your text)`
+3. decode vowels `$ ./build/app/vowels -reverse (your text)`
+4. translate to pig latin `$ ./build/app/pig-latin (your text)`
 
 ## Test:
 `$ make test`
